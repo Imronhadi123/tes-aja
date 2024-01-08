@@ -1,0 +1,348 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(F0EBCE);
+} 
+
+.pembungkus-navbar {
+    background-color: #79e75b;
+    color: #102f1e;
+    height:fit-content;
+}
+
+.ul-bungkus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50vh;
+}
+
+.ul-bungkus2 {
+    padding-left: 50vh;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+}
+
+.li-bungkus {
+list-style-type: none;
+margin: 5px;
+padding: 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: medium;
+font-weight: bold;
+height: fit-content;
+justify-content: center;
+align-items: center;
+}
+
+.li-bungkus:hover {
+    background-color: #F0EBCE;
+    transition: .3s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: #102f1e;
+    text-decoration: none;
+}
+
+.pembungkus-content {
+background-color: #F0EBCE;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 80vh;
+}
+
+.pembungkus-img {
+ height: 45%;
+ width: 20%;
+ margin-right: 100px;
+}
+
+.pembungkus-img2 {
+height: 35%;
+width: 15%;
+margin-left: 100px;
+margin: 3px;
+}
+
+.pembungkus-footer {
+background-color: #79e75b;
+color: #102f1e;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 10vh;
+}
+
+.pembungkus-kalimat {
+  font-size: medium;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Profil */
+
+.body-profil {
+    background-color: #F0EBCE;
+}
+
+.judul-atas-profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #102f1e;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #F0EBCE;
+}
+
+.artikel-konten-profil {
+    background-color: #f0ebce00;
+}
+
+.tabel-1-profil {
+    background-color: #a1e0bd;
+    margin: 10px;
+}
+
+.judul-profil {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tulisan-profil {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* PAKAN */
+
+.body-pakan {
+    background-color: #F0EBCE;
+}
+
+.judul-atas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #102f1e;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #F0EBCE;
+}
+
+.artikel-konten {
+    background-color: #f0ebce00;
+}
+
+.tabel-1 {
+    background-color: #a1e0bd;
+    margin: 10px;
+}
+
+.pakan-ternak {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tulisan-pakan {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tabel-2 {
+    background-color: #a1e0bd;
+    margin: 10px;
+}
+
+.komposisi-pakan {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tulisan-komposisi {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tabel-3 {
+    background-color: #a1e0bd;
+    margin: 10px;
+}
+
+.protein {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tulisan-protein {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tabel-4 {
+    background-color: #a1e0bd;
+    margin: 10px;
+}
+
+.karbohidrat {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tulisan-karbo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tabel-5 {
+    background-color: #a1e0bd;
+    margin: 10px;
+}
+
+.lemak-judul {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lemak-tulisan {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tabel-6 {
+    background-color: #a1e0bd;
+    margin: 10px;
+}
+
+.judul-vitamin {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tulisan-vitamin {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-pakan {
+    background-color: #102f1e;
+    height: fit-content;
+}
+
+.tulisan-footer-pakan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    color: #F0EBCE;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* HARGA */
+
+.body-harga {
+    background-color: #F0EBCE;
+}
+
+.judul-atas-harga {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #102f1e;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #F0EBCE;
+}
+
+.artikel-konten-harga {
+    background-color: #f0ebce00;
+}
+
+.tabel-1-harga {
+    background-color: #a1e0bd;
+    margin: 10px;
+}
+
+.judul-Harga-lokal {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tulisan-harga-lokal {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tabel-2-harga {
+    background-color: #a1e0bd;
+    margin: 10px;
+}
+
+.judul-harga-industri {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tulisan-harga-industri {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* INFO LAINNYA */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
